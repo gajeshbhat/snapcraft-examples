@@ -1,0 +1,22 @@
+name: hello-world-cli-gajesh-test
+version: "0.1"
+summary: Hello World Test Snap
+description: |
+  This demo is intended to show how to build your first snap
+  This code is part of the Snapcraft example tour at
+  https://developer.ubuntu.com/snapcraft-getting-started
+  Modified for testing git commit display feature in snapcraft.io
+
+base: core22
+confinement: strict
+
+parts:
+  hello:
+    plugin: dump
+    source: .
+    organize:
+      hello.sh: bin/hello
+
+apps:
+  hello-world-cli-gajesh-test:
+    command: bin/hello
