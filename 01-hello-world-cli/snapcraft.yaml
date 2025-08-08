@@ -1,5 +1,5 @@
 name: hello-world-cli-gajesh-test
-version: "0.1"
+version: "0.3"
 summary: Hello World Test Snap
 description: |
   This demo is intended to show how to build your first snap
